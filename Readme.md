@@ -24,4 +24,5 @@ me fijé en que todo gira entorno a las opciones del menú por lo cual lo que hi
 Con ese método creado empecé a hacer que sus distintas opciones fuesen métodos del Controller y esto s mismos en función de que acción quisiesen hacer llamarían al Model para por ejemplo sumar
 separé los bloques de código de suamr multiplicar etc y los metí en el model paraque este hiciese las operaciones
 El Controller se dedicaría a pedir los datos para enviarselos al model y luego de vuelta se le pasan a la view para que los imprima y siga con el bucle
+Luego de eso estuve solucionando errores que me daba el código pues algunso métodos no los tenía bien definidos como static por ejemplo o tenía algún problema y los fui solucionando hasta que no entendía por que ahora no me encuentra la clase App, esta clase lo unico que hacer es llamar al metodo inicio que inicia el Controller
 
