@@ -29,6 +29,24 @@ public class Controller {
         System.out.println("Introduce el segundo numero");
         double num2 = sc.nextDouble();
         sc.close();
-        return Model.sumarNum(num1,num2);
+        return Model.restarNum(num1,num2);
+    }
+    public static double multiplicar(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce el primer numero");
+        double num1 = sc.nextDouble();
+        System.out.println("Introduce el segundo numero");
+        double num2 = sc.nextDouble();
+        sc.close();
+        return Model.multiplicarNum(num1,num2);
+    }
+    public static double dividir(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce el primer numero");
+        double num1 = sc.nextDouble();
+        System.out.println("Introduce el segundo numero");
+        double num2 = sc.nextDouble();
+        sc.close();
+        return Model.dividirNum(num1,num2);
     }
 }
